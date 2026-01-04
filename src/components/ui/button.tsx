@@ -10,28 +10,28 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-primary text-primary-foreground hover:bg-primary/90 rounded-md shadow-sm",
+          "bg-primary text-primary-foreground hover:bg-primary/90 rounded-sm shadow-sm",
         destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded-md",
+          "bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded-sm",
         outline:
-          "border border-border bg-transparent text-foreground hover:bg-accent hover:text-accent-foreground rounded-md",
+          "border border-border bg-transparent text-foreground hover:bg-accent hover:text-accent-foreground rounded-sm",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-md",
+          "bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-sm",
         ghost: 
-          "text-foreground hover:bg-accent hover:text-accent-foreground rounded-md",
+          "text-foreground hover:bg-accent hover:text-accent-foreground rounded-sm",
         link: 
           "text-primary underline-offset-4 hover:underline",
         // Premium variants for Flofen
         hero: 
-          "bg-gold text-primary-foreground hover:bg-gold/90 shadow-glow uppercase tracking-[0.2em] font-semibold",
+          "bg-gold text-white hover:bg-gold/90 shadow-glow uppercase tracking-[0.2em] font-semibold rounded-sm hover:-translate-y-0.5",
         "hero-outline":
-          "border-2 border-warm-white bg-transparent text-warm-white hover:bg-warm-white/10 uppercase tracking-[0.2em] font-semibold",
+          "border-2 border-warm-white bg-transparent text-warm-white hover:bg-warm-white/10 uppercase tracking-[0.2em] font-semibold rounded-sm hover:-translate-y-0.5",
         premium:
-          "bg-charcoal text-warm-white hover:bg-charcoal/90 uppercase tracking-[0.15em] font-semibold shadow-sm",
+          "bg-charcoal text-warm-white hover:bg-charcoal/90 uppercase tracking-[0.15em] font-semibold shadow-sm rounded-sm hover:-translate-y-0.5",
         "premium-outline":
-          "border border-charcoal bg-transparent text-charcoal hover:bg-charcoal hover:text-warm-white uppercase tracking-[0.15em] font-medium",
+          "border border-charcoal bg-transparent text-charcoal hover:bg-charcoal hover:text-warm-white uppercase tracking-[0.15em] font-medium rounded-sm hover:-translate-y-0.5",
         gold:
-          "bg-gradient-to-r from-gold to-gold-muted text-primary-foreground hover:opacity-90 shadow-glow uppercase tracking-[0.15em] font-semibold",
+          "bg-gradient-to-r from-gold to-gold-muted text-white hover:opacity-90 shadow-glow uppercase tracking-[0.15em] font-semibold rounded-sm hover:-translate-y-0.5",
       },
       size: {
         default: "h-10 px-6 py-2",
